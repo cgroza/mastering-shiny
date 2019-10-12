@@ -108,7 +108,7 @@ As you provide more control, you'll find the code gets more and more complicated
 
 ### `parse()`
 
-You may have considered using `parse()` + `eval()`.  This is a bad idea because it means that the user of your app can run arbitrary R code. This isn't super important if its a Shiny app that only use you, but it's a good habit to get into --- otherwise it's very easy to accidentally create a security hole in an app that you share more widely.
+You may have considered using `parse()` + `eval()`.  This is a bad idea because it means that the user of your app can run arbitrary R code. This isn't super important if its a Shiny app that only you use, but it's a good habit to get into --- otherwise it's very easy to accidentally create a security hole in an app that you share more widely.
 
 ## Reducing duplication
 
